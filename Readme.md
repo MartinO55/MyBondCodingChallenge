@@ -34,7 +34,15 @@ So what the inferno is mostly about is contemporary politics - Dante is having t
 
 to make it relevant to a modern audience, they need to understand the politics he was living through, as well as the actual language - crude and violent
 
-Francesca Da Rimini and Conte Ujolini
+The object is not to retell the story - but to make it accessible (or at least as much as we can do in 4 days)
+
+So each line of the inferno is written in 11 syllables (this is the Sicillian School - and is equivalent to the english Chaucer)
+
+two people of note are Francesca Da Rimini and Conte Ujolini
+
+### Tech Notes
+
+So what do we actually need to use - today is the 5th and it is due by the 9th, so quick and simple seems to be best. On reflection, I don't think bootstrap will be useful - or at least, won't make the text more engaging. I think the best way to go is to do the whole thing with HTML and CSS animations, maybe some Javascript as needed. Also, apparently the translation provided is pretty bad, so I will use Robert M. Durling's version.
 
 ### The Divine Comedy - Inferno (Abstract)
 
