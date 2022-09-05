@@ -1,10 +1,13 @@
+
 body {background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size:100%,100%;
 background-color: rgb(0, 0, 0); 
 display: flex;
 justify-content: center;
-align-items: center;} 
+align-items: center;
+
+} 
 
 .TitleContainer {
     position:absolute;
@@ -16,6 +19,31 @@ row-gap: 30px;
 column-gap: 30px;
 }
 
-#TextCard {color: aliceblue;}
+.TextCard {color: aliceblue;
+    
+font-size: 300%;}
 
-#ClickToContinue{color: aliceblue;}
+.ClickToContinue{color: aliceblue;
+    font-size: 200%;
+    transition: 1s;
+    
+}
+    .ClickToContinue:hover{
+        color: rosybrown;
+    }
+.DarkWood{
+    color: aliceblue;
+    font-size: 220%;
+    transition: 5s;
+    animation: TitleFadeOut 7s forwards;
+}
+
+@keyframes TitleFadeOut {
+    0%{opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.TextContent {
+    color: aliceblue;
+    font-size: 140%;
+}
