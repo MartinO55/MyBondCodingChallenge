@@ -4,7 +4,7 @@ You can submit your response either via github or a .zip.
 
 You should submit your response by Close of Business, Friday, September 9th.
 
-Feel free to reach out to ask any questions. My email is matt@mybond.com.au.
+Feel free to reach out to ask any questions. My email is matt@mybond.com.au. --delete this before it goes public?
 
 ## The Challenge
 
@@ -27,6 +27,14 @@ Bonus points for including some responsive capabilities.
 There is no right way - this is completely subjective and hopefully a bit of fun.
 
 Feel free to ask any question about this task or anything else.
+
+### Notes
+
+So what the inferno is mostly about is contemporary politics - Dante is having trouble working out what to do with his life. He meets Virgil (the Roman) who tells him that heaven has decided to give Dante a guided tour or hell and purgatory. many of the people he meets on the tour were still alive at the time, but dante places them in hell depending on what he sees as their sins.
+
+to make it relevant to a modern audience, they need to understand the politics he was living through, as well as the actual language - crude and violent
+
+Francesca Da Rimini and Conte Ujolini
 
 ### The Divine Comedy - Inferno (Abstract)
 
