@@ -53,36 +53,47 @@ font-size: 300%;}
 
     .oneTwo{
         display: none;
+        transform: translate(-50%,-30%);
+        
     }
     .oneThree{
         display: none;
+        transform: translate(10%,30%);
     }
     .oneFour{
         display: none;
+        transform: translate(-50%,-30%);
     }
     .oneFive{
         display: none;
     }
     .oneSix{
         display: none;
+        transform: translate(-10%,30%);
     }
     .oneSeven{
         display: none;
+        transform: translate(-50%,-30%);
     }
     .oneEight{
         display: none;
+        transform: translate(10%,-30%);
     }
     .oneNine{
         display: none;
+        transform: translate(-10%,-30%);
     }
     .oneTen{
         display: none;
+        transform: translate(-20%,-30%);
     }
     .oneEleven{
         display: none;
+        transform: translate(-50%,-30%);
     }
     .oneTwelve{
         display: none;
+        transform: translate(10%,20%);
     }
 
 
