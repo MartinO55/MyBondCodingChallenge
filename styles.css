@@ -11,7 +11,7 @@ align-items: center;
 
 .TitleContainer {
     position:absolute;
-    left: 40%;
+    left: 30%;
     top: 40%;
 align-items: center;
 text-align: left;
@@ -46,4 +46,8 @@ font-size: 300%;}
 .TextContent {
     color: aliceblue;
     font-size: 140%;
+}
+
+.oneTwo{
+    display: none;
 }
