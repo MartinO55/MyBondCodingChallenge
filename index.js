@@ -2,9 +2,13 @@ function clickThroughStory(current,destination) //so we want this function to fa
 {
     targetToShow = document.querySelector(destination)//finds the target/next p in sequence as told by the html
     targetToHide = document.querySelector(current)
-    console.log(targetToShow)//from here I guess we just alter the CSS show the target variable div and hide the previous one
-    targetToShow.style.display = 'block'
-    targetToHide.style.display = 'none'
+    //console.log(targetToShow)//from here I guess we just alter the CSS show the target variable div and hide the previous one
+    if (targetToShow != null) {
+        targetToShow.style.display = 'block' 
+        targetToHide.style.display = 'none'
+    } else{
+        console.log("error: either Virgil has not finsihed the tour or Dante has not finished writing")
+    }
 
 }
    

@@ -31,6 +31,7 @@ font-size: 300%;}
     .ClickToContinue:hover{
         color: rosybrown;
     }
+
 .DarkWood{
     color: aliceblue;
     font-size: 220%;
@@ -46,6 +47,8 @@ font-size: 300%;}
 .TextContent {
     color: aliceblue;
     font-size: 140%;
+    transition: 3s;
+    display: flex;
 }
     .TextContent:hover{
         color: rosybrown;
@@ -53,12 +56,12 @@ font-size: 300%;}
 
     .oneTwo{
         display: none;
-        transform: translate(-50%,-30%);
+        transform: translate(-20%,-30%);
         
     }
     .oneThree{
         display: none;
-        transform: translate(10%,30%);
+        transform: translate(0%,-10%);
     }
     .oneFour{
         display: none;
@@ -73,11 +76,11 @@ font-size: 300%;}
     }
     .oneSeven{
         display: none;
-        transform: translate(-50%,-30%);
+        transform: translate(-20%,-30%);
     }
     .oneEight{
         display: none;
-        transform: translate(10%,-30%);
+        transform: translate(0%,-30%);
     }
     .oneNine{
         display: none;
@@ -93,7 +96,7 @@ font-size: 300%;}
     }
     .oneTwelve{
         display: none;
-        transform: translate(10%,20%);
+        transform: translate(-10%,20%);
     }
 
 
