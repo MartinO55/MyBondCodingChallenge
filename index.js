@@ -7,7 +7,7 @@ function clickThroughStory(current,destination) //so we want this function to fa
         targetToShow.style.display = 'block' 
         targetToHide.style.display = 'none'
     } else{
-        console.log("error: either Virgil has not finsihed the tour or Dante has not finished writing")
+        console.log("error: either Virgil has not finished the tour or Dante has not finished writing")
     }
 
 }

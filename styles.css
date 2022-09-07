@@ -98,5 +98,18 @@ font-size: 300%;}
         display: none;
         transform: translate(-10%,20%);
     }
+    .oneThirteen{
+        display: none;
+        transform: translate(10%,20%);
+    }
+    .oneFourteen{
+        display: none;
+        transform: translate(0%,20%);
+    }
+    .oneFifteen{
+        display: none;
+        transform: translate(-10%,20%);
+    }
+
 
 
