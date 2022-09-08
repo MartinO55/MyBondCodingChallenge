@@ -62,10 +62,11 @@ font-size: 300%;}
     .oneOne:hover:after{
         content: url(images/memes/middleOfJourney.jpg);
         display: block;
+        animation: TitleFadeOut 10s;
     }
         .middleOfJourney{
             display: none;
-            transition: 1s;
+            transition: 5s;
         }
 
     .oneTwo{
@@ -75,6 +76,7 @@ font-size: 300%;}
     .oneTwo:hover:after{
         content: url(images/memes/theDarkWood.png);
         display: block;
+        animation: TitleFadeOut 10s;
     }
         .theDarkWood{
             display:none;
@@ -94,6 +96,7 @@ font-size: 300%;}
     .oneFour:hover:after{
         content: url(images/memes/SoFullOfSleep.jpg);
         display: block;
+        animation: TitleFadeOut 10s;
     }
         .SoFullOfSleep{
             display: none;
@@ -106,6 +109,7 @@ font-size: 300%;}
     .oneFive:hover:after{
         content: url(images/memes/TheHill.jpg);
         display: block;
+        animation: TitleFadeOut 10s;
     }
         .TheHill{
             display: none;
@@ -119,10 +123,11 @@ font-size: 300%;}
     .oneSix:hover:after{
         content: url(images/memes/theSun.jpg);
         display: block;
+        animation: TitleFadeOut 10s;
     }
         .theSun{
             display: none;
-            transition: 1s;
+            transition: 1s ease;
         }
 
     .oneSeven{
@@ -136,6 +141,7 @@ font-size: 300%;}
     .oneEight:hover:after{
         content: url(images/memes/Shipwreck.png);
         display: block;
+        animation: TitleFadeOut 10s;
     }
 
         .Shipwreck{
@@ -150,6 +156,7 @@ font-size: 300%;}
     .oneNine:hover:after{
         content: url(images/memes/PassThatNeverLeftAnyone.jpg);
         display: block;
+        animation: TitleFadeOut 10s;
     }
 
         .PassThatNeverLeftAnyone{
@@ -164,6 +171,7 @@ font-size: 300%;}
     .oneTen:hover:after{
         content: url(images/memes/myHaltedFoot.jpg);
         display: block;
+        animation: TitleFadeOut 10s;
     }
 
         .myHaltedFoot{
@@ -178,8 +186,8 @@ font-size: 300%;}
     .oneEleven:hover:after{
         content: url(images/memes/leopard.jpg);
         display: block;
+        animation: TitleFadeOut 10s;
     }
-
         .leopard{
             display: none;
             transition: 1s;
@@ -199,11 +207,13 @@ font-size: 300%;}
     }
     .oneFifteen{
         display: none;
-        transform: translate(-10%,20%);
+        transform: translate(0%,-40%);
     }
     .oneFifteen:hover:after{
         content: url(images/memes/equinox.jpg);
         display: block;
+        animation: TitleFadeOut 10s;
+        height: 50%;
     }
 
         .equinox{
