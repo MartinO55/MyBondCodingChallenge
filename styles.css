@@ -44,6 +44,11 @@ font-size: 300%;}
     100% {opacity: 0;}
 }
 
+@keyframes ImageFadeIn {
+    0%{opacity:0;}
+    100%{opacity: 1;}
+}
+
 .TextContent {
     color: aliceblue;
     font-size: 140%;
@@ -54,26 +59,72 @@ font-size: 300%;}
         color: rosybrown;
     }
 
+    .oneOne:hover:after{
+        content: url(images/memes/middleOfJourney.jpg);
+        display: block;
+    }
+        .middleOfJourney{
+            display: none;
+            transition: 1s;
+        }
+
     .oneTwo{
         display: none;
-        transform: translate(-20%,-30%);
-        
+        transform: translate(-20%,-30%);    
     }
+    .oneTwo:hover:after{
+        content: url(images/memes/theDarkWood.png);
+        display: block;
+    }
+        .theDarkWood{
+            display:none;
+            transition: 1s;
+        }
+
+
     .oneThree{
         display: none;
         transform: translate(0%,-10%);
     }
+
     .oneFour{
         display: none;
         transform: translate(-50%,-30%);
     }
+    .oneFour:hover:after{
+        content: url(images/memes/SoFullOfSleep.jpg);
+        display: block;
+    }
+        .SoFullOfSleep{
+            display: none;
+            transition: 1s;
+        }
+
     .oneFive{
         display: none;
     }
+    .oneFive:hover:after{
+        content: url(images/memes/TheHill.jpg);
+        display: block;
+    }
+        .TheHill{
+            display: none;
+            transition: 1s;
+        }
+
     .oneSix{
         display: none;
         transform: translate(-10%,30%);
     }
+    .oneSix:hover:after{
+        content: url(images/memes/theSun.jpg);
+        display: block;
+    }
+        .theSun{
+            display: none;
+            transition: 1s;
+        }
+
     .oneSeven{
         display: none;
         transform: translate(-20%,-30%);
@@ -82,18 +133,58 @@ font-size: 300%;}
         display: none;
         transform: translate(0%,-30%);
     }
+    .oneEight:hover:after{
+        content: url(images/memes/Shipwreck.png);
+        display: block;
+    }
+
+        .Shipwreck{
+            display: none;
+            transition: 1s;
+        }
+
     .oneNine{
         display: none;
         transform: translate(-10%,-30%);
     }
+    .oneNine:hover:after{
+        content: url(images/memes/PassThatNeverLeftAnyone.jpg);
+        display: block;
+    }
+
+        .PassThatNeverLeftAnyone{
+            display: none;
+            transition: 1s;
+        }
+
     .oneTen{
         display: none;
         transform: translate(-20%,-30%);
     }
+    .oneTen:hover:after{
+        content: url(images/memes/myHaltedFoot.jpg);
+        display: block;
+    }
+
+        .myHaltedFoot{
+            display: none;
+            transition: 1s;
+        }
+
     .oneEleven{
         display: none;
         transform: translate(-50%,-30%);
     }
+    .oneEleven:hover:after{
+        content: url(images/memes/leopard.jpg);
+        display: block;
+    }
+
+        .leopard{
+            display: none;
+            transition: 1s;
+        }
+
     .oneTwelve{
         display: none;
         transform: translate(-10%,20%);
@@ -110,6 +201,14 @@ font-size: 300%;}
         display: none;
         transform: translate(-10%,20%);
     }
+    .oneFifteen:hover:after{
+        content: url(images/memes/equinox.jpg);
+        display: block;
+    }
 
+        .equinox{
+            display: none;
+            transition: 1s;
+        }
 
 
