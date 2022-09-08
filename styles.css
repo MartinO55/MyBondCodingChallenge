@@ -12,7 +12,7 @@ align-items: center;
 .TitleContainer {
     position:absolute;
     left: 30%;
-    top: 40%;
+    top: 25%;
 align-items: center;
 text-align: left;
 row-gap: 30px;
@@ -71,7 +71,7 @@ font-size: 300%;}
 
     .oneTwo{
         display: none;
-        transform: translate(-20%,-30%);    
+            
     }
     .oneTwo:hover:after{
         content: url(images/memes/theDarkWood.png);
@@ -86,12 +86,12 @@ font-size: 300%;}
 
     .oneThree{
         display: none;
-        transform: translate(0%,-10%);
+       
     }
 
     .oneFour{
         display: none;
-        transform: translate(-50%,-30%);
+        
     }
     .oneFour:hover:after{
         content: url(images/memes/SoFullOfSleep.jpg);
@@ -118,7 +118,7 @@ font-size: 300%;}
 
     .oneSix{
         display: none;
-        transform: translate(-10%,30%);
+        
     }
     .oneSix:hover:after{
         content: url(images/memes/theSun.jpg);
@@ -132,11 +132,11 @@ font-size: 300%;}
 
     .oneSeven{
         display: none;
-        transform: translate(-20%,-30%);
+        
     }
     .oneEight{
         display: none;
-        transform: translate(0%,-30%);
+        
     }
     .oneEight:hover:after{
         content: url(images/memes/Shipwreck.png);
@@ -151,7 +151,7 @@ font-size: 300%;}
 
     .oneNine{
         display: none;
-        transform: translate(-10%,-30%);
+        
     }
     .oneNine:hover:after{
         content: url(images/memes/PassThatNeverLeftAnyone.jpg);
@@ -166,7 +166,7 @@ font-size: 300%;}
 
     .oneTen{
         display: none;
-        transform: translate(-20%,-30%);
+        
     }
     .oneTen:hover:after{
         content: url(images/memes/myHaltedFoot.jpg);
@@ -181,7 +181,7 @@ font-size: 300%;}
 
     .oneEleven{
         display: none;
-        transform: translate(-50%,-30%);
+        
     }
     .oneEleven:hover:after{
         content: url(images/memes/leopard.jpg);
@@ -195,19 +195,19 @@ font-size: 300%;}
 
     .oneTwelve{
         display: none;
-        transform: translate(-10%,20%);
+        
     }
     .oneThirteen{
         display: none;
-        transform: translate(10%,20%);
+       
     }
     .oneFourteen{
         display: none;
-        transform: translate(0%,20%);
+        
     }
     .oneFifteen{
         display: none;
-        transform: translate(0%,-40%);
+       
     }
     .oneFifteen:hover:after{
         content: url(images/memes/equinox.jpg);
