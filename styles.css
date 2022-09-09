@@ -1,3 +1,4 @@
+/* breakpoints for scren size */
 @media only screen and (max-width: 600px) {
     body{
         font-size: 90%;
@@ -14,7 +15,7 @@
     }
 }
 
-
+/* CSS styling for pages */
 body {background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size:100%,100%;
@@ -35,11 +36,13 @@ row-gap: 30px;
 column-gap: 30px;
 }
 
-.TextCard {color: aliceblue;
-    
-font-size: 300%;}
+.TextCard {
+    color: aliceblue;
+    font-size: 300%;
+}
 
-.ClickToContinue{color: aliceblue;
+.ClickToContinue {
+    color: aliceblue;
     font-size: 200%;
     transition: 1s;
     
@@ -55,16 +58,13 @@ font-size: 300%;}
     animation: TitleFadeOut 7s forwards;
 }
 
+/* Animation keyframes */
 @keyframes TitleFadeOut {
     0%{opacity: 1;}
     100% {opacity: 0;}
 }
 
-@keyframes ImageFadeIn {
-    0%{opacity:0;}
-    100%{opacity: 1;}
-}
-
+/* Story Styling */
 .TextContent {
     color: aliceblue;
     font-size: 140%;
@@ -74,7 +74,9 @@ font-size: 300%;}
     .TextContent:hover{
         color: rosybrown;
     }
-
+/*So because I gave each line its own class all of these are similar. this means the JS is shorter and neater, but the CSS is longer. in any case they do the same thing - 
+whenever you hover your mouse over the line the related meme appears. the CSS also blocks the display of all lines other than the first, and all the images till they are relevant
+Each image is blocked till its line is hovered over, but you could do this with JS instead if you wanted to*/
     .oneOne:hover:after{
         content: url(images/memes/middleOfJourney.jpg);
         display: block;
@@ -83,6 +85,7 @@ font-size: 300%;}
         .middleOfJourney{
             display: none;
             transition: 5s;
+            border-radius: 5px;
         }
 
     .oneTwo{
@@ -97,6 +100,7 @@ font-size: 300%;}
         .theDarkWood{
             display:none;
             transition: 1s;
+            border-radius: 5px;
         }
 
 
@@ -117,6 +121,7 @@ font-size: 300%;}
         .SoFullOfSleep{
             display: none;
             transition: 1s;
+            border-radius: 5px;
         }
 
     .oneFive{
@@ -130,6 +135,7 @@ font-size: 300%;}
         .TheHill{
             display: none;
             transition: 1s;
+            border-radius: 5px;
         }
 
     .oneSix{
@@ -144,6 +150,7 @@ font-size: 300%;}
         .theSun{
             display: none;
             transition: 1s ease;
+            border-radius: 5px;
         }
 
     .oneSeven{
@@ -163,6 +170,7 @@ font-size: 300%;}
         .Shipwreck{
             display: none;
             transition: 1s;
+            border-radius: 5px;
         }
 
     .oneNine{
@@ -178,6 +186,7 @@ font-size: 300%;}
         .PassThatNeverLeftAnyone{
             display: none;
             transition: 1s;
+            border-radius: 5px;
         }
 
     .oneTen{
@@ -193,6 +202,7 @@ font-size: 300%;}
         .myHaltedFoot{
             display: none;
             transition: 1s;
+            border-radius: 5px;
         }
 
     .oneEleven{
@@ -207,8 +217,10 @@ font-size: 300%;}
         .leopard{
             display: none;
             transition: 1s;
+            border-radius: 5px;
         }
-
+/*Unfortunately, not all the lines have a new idea associated with them, so you either redisplay the same meme or leave it out. If you did bootstrap cards you would have to redisplay the 
+same image, Or in a few cases you would get lucky (and you could use different leopard memes...) but then you are loading more images and the site gets fat pretty quickly (an issue for hosting)*/
     .oneTwelve{
         display: none;
         
@@ -235,6 +247,22 @@ font-size: 300%;}
         .equinox{
             display: none;
             transition: 1s;
+            border-radius: 5px;
         }
+    /*Footer styling - because I used absolute spacing on the body I also needed to use it on the footer - in retrospect this was a poor choice, just flex boxing the whole thing would have been smarter,
+    But the footer was a last minute inclusion. The perils of not having a wireframe design*/
+    .attribution{
+        display: flex;
+       align-items: left;
+
+        position: absolute;
+        top: 90%;
+        right: 60%;
+        color: aliceblue;
+    }
+    /*makes the github logo for the link nice and round*/
+    .GithubLogo{
+        border-radius: 15px;
+    }
 
 

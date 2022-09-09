@@ -7,19 +7,24 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>Canto I: The Dark Wood</title>
+        <meta name="description" content="Inferno for modern audiences">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
+    <!-- In a completed version of the story, a navbar would go here, allowing for chapter selection - this is where you could use bootstrap, although it wouldn't be too difficult to code it up from scratch -->
     <body>
         <script src="index.js" async defer></script>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <div class="TitleContainer"> 
-            <div class = "DarkWood"> The Dark Wood</div>
+        <!--below is the text of the Inferno I added - I couldn't think of any way to avoid typing out the entire story, which limited the amount of it I could do. it would be possible to pull it from a database in JSON format instead, but I would still have needed to type it *into* that database-->
+        <!--Doing this challenge with react would be rather simple, although not as simple as just typing it out. It would be significantly more flexible though, and could pull the lines from a database backend if you were worried about exposing the text to the web-->
+        <div class="TitleContainer">
+            <!--One use for react in this case is that you could create different modules, each with a different translation, and allow users to compare them at the touch of a button-->
+            <div class = "DarkWood">The Dark Wood</div>
                 <div class="TextContent">
+                    <!--Given that there are alot of images on this site, at some point you would want to move to a new page so the loading doesn't take forever, you would probably do this for each Canto-->
+                    <!--If you wanted to be really clever you could integrate A machine learning algorithm here to the same purpose - rather than manually searching for/creating the memes as I did you could use a text analysis algorithm on the footnotes for each line, and have it find the memes for each one. it might not be any quicker to do though-->
+                    <!--You could use bootstrap 4 here to make each of the lines its own card with a picture - of course then the animations become annoying to do, and you have to find a picture for each line, and not every line lends itself to one-->
+                    <!--You could also have each of these on a separate page. This would be the easy way out if you couldnt code JS-->
                     <p class = "oneOne" onclick="clickThroughStory('.oneOne','.oneTwo')"> In the middle of the journey of our life, I came to myself in a dark wood, for the straight way was lost.</p>
                     <img class ="middleOfJourney" src = "images/memes/middleOfJourney.jpg" alt = "in the middle of lifes journey aka middle age. Earlier for Dante than today">
 
@@ -27,6 +32,7 @@
                     <img class = "theDarkWood" src = "images/memes/theDarkWood.png" alt="The dark wood (I am so so sorry) is a reference to Sin and damnation">
 
                     <p class = "oneThree" onclick="clickThroughStory('.oneThree','.oneFour')">It is so bitter that death is little more so! But to treat of the good that I found here, I will tell of the other Things I saw.</p>
+                    
                     <p class = "oneFour" onclick="clickThroughStory('.oneFour','.oneFive')">I cannot really say how I entered there, so full of sleep was I at the point when I abandoned the true way.</p>
                     <img class ="SoFullOfSleep" src ="images/memes/SoFullOfSleep.jpg" alt = "Sleep is a reference to sin and damnation">
 
@@ -51,17 +57,14 @@
                     <img class ="leopard" src="images/memes/leopard.jpg" alt="The leopard is either present because it alliterates with the other beasts in the story in the orginal italian, or because it represents a specific sin (fraud)">
                     
                     <p class="oneTwelve" onclick="clickThroughStory('.oneTwelve','.oneThirteen')">and it did not depart from before my face but rather so impeded my way that I was at several turns turned to go back</p>
+                    
                     <p class="oneThirteen" onclick="clickThroughStory('.oneThirteen','.oneFourteen')">The time was the beginning of the morning, and the sun was mounting up with those stars that were with it when God's love...</p>
+                    
                     <p class="oneFourteen" onclick="clickThroughStory('.oneFourteen','.oneFifteen')">first set those lovely things in motion; so that I took reason to have good hope of that beast with its gaily painted hide...</p>
                     
                     <p class="oneFifteen" onclick="clickThroughStory('.oneFifteen','.oneSixteen')">from the hour of the morning and the sweet season; but not so that I did not fear the sight of a lion appeared to me.</p>
                     <img class = "equinox" src="images/memes/equinox.jpg" alt="the Sweet season is a direct reference to the spring equinox. It meant more in medieval times">
-                    
-                
                 </div>
         </div>
-        
-        
-
     </body>
 </html>
