@@ -7,6 +7,7 @@ function clickThroughStory(current,destination) //so we want this function to fa
         targetToShow.style.display = 'block' 
         targetToHide.style.display = 'none'
     } else{
+        window.location.href ="Index.html"
         console.log("error: either Virgil has not finished the tour or Dante has not finished writing")
     }
 
